@@ -4,6 +4,8 @@
 
 This programming assignment focuses on interacting with Github Classroom, and writing a simple program to validate your development configuration.
 
+This assignment will be graded out of 25 points.
+
 ## Instructions
 ### Configure your development environment
 Follow the guidelines in the [Programming Assignment Setup](https://docs.google.com/document/d/1lHtKhu-f2EiWcJhHt3aGLr5e0bN1lyeKXfYha4J3WK8/edit?usp=sharing) document to configure your development environment.
