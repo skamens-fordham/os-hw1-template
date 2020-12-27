@@ -112,7 +112,6 @@ Link to your Github Repository:
 Click on the [Assignment Link](https://fordham.blackboard.com/webapps/assignment/uploadAssignment?content_id=_3599498_1&course_id=_6112339_1)
 
 #### Click "Browse Local Files"
-<img src=https://drive.google.com/file/d/1hwxzToBof7vF9kXYFXWGOsbdjF73IIG0/view>
 
 Select and upload your `submit.txt` file, and click `Submit` (at the bottom of the screen)
 
