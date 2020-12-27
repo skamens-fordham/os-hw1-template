@@ -13,7 +13,9 @@ Follow the guidelines in the [Programming Assignment Setup](https://docs.google.
 Click on the [Assignment Link](https://classroom.github.com/a/uGNX4Eu-) to accept the first assignment. This will create a git repository containing the following files:
 * `README.md` - this README file
 * `Makefile` - the Makefile that will be used to build the program
-* `hello_world.cpp` - the starter C++ file that will contain your code
+* `hello_world.cpp` - a starter file to use if you wish to implement the assignment in C++
+* `hello_world.py` - a starter file to use if you wish to implement the assignment in Python
+* `submit.txt` - the file that will be submitted to Blackboard to officially "turn in" your assignment
 * `.vscode` - A directory containing VSCode configuration files appropriate to the assignment, including
   *  `tasks.json` - Defines the rule used to build the program using the Makefile
   *  `launch.json` - Configuration allowing you to run the program from VSCode
@@ -29,9 +31,9 @@ Use the following command to clone your repository to your local environment:
 If you are using VSCode to perform your development, run VSCode, enable Remote-WSL access, and choose "File -> Open Folder", selecting your cloned assignment folder.
 
 ### Write your program
-Follow the instructions in `hello_world.cpp` to write a simple "Hello, World!" program.
+Follow the instructions in `hello_world.cpp` or `hello_world.py` to write a simple "Hello, World!" program.
 
-### Build your program
+### Build your program (C++)
 #### Direct shell access
 If you are running on `erdos` or working directly in your WSL instance, build the program by changing to your local source directory and typing "make". 
 
@@ -53,6 +55,11 @@ Run your program to verify that it prints "Hello, World!" as expected.
 skamens@Sam:~/test-assignment-starter$ ./hello_world
 Hello, World!
 ```
+
+```
+skamens@Sam:~/test-assignment1-starter$ ./hello_world.py
+Hello, World!
+```
 #### VSCode
 Run the program by entering "Ctrl-F5" (which maps to "Run -> Run Without Debugging"). Note that the configuration needed to run the program is found in the `.vscode/launch.json` file included in this repository.
 
@@ -64,13 +71,13 @@ You may wish to experiment with the debugger, if you haven't used it before. For
 ### Commit your code in git
 
 ```
-skamens@Sam:~/test-assignment-skamens-fordham$ git add hello_world.cpp
+skamens@Sam:~/test-assignment-skamens-fordham$ git add -A # This stages all changed files
 skamens@Sam:~/test-assignment-skamens-fordham$ git commit
 [master 460b567] test
  1 file changed, 1 deletion(-)
 ```
 
-### Push your code to Github Classroom
+### Push your code to Github
 
 ```
 skamens@Sam:~/test-assignment-skamens-fordham$ git push
