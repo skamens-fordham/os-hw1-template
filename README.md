@@ -73,7 +73,7 @@ You may wish to experiment with the debugger, if you haven't used it before. For
 ```
 skamens@Sam:~/test-assignment-skamens-fordham$ git add -A # This stages all changed files
 skamens@Sam:~/test-assignment-skamens-fordham$ git commit
-[master 460b567] test
+[main 460b567] test
  1 file changed, 1 deletion(-)
 ```
 
@@ -89,11 +89,35 @@ Writing objects: 100% (3/3), 279 bytes | 279.00 KiB/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
 To https://github.com/skamens-fordham-org/test-assignment-skamens-fordham
-   1a6667e..460b567  master -> master
+   1a6667e..460b567  main -> main
 ```
-In VSCode you can use the build-in git tools to commit and push without using the command line.
+In VSCode you can use the built-in git tools to commit and push without using the command line.
 
-##
+### Submit your assignment to Blackboard
+In order to match your assignment to the grading system, each assignment must be "submitted" in Blackboard. This indicates to me that you consider your assignment ready to be graded. In addition, you will be able to see the detailed rubric for each assignment after grading is complete.
+
+#### Fill in the submission file
+Fill in the information in the file `submit.txt`. The contents of the file are as follows:
+
+```
+Operating Systems, Spring 2021
+Assignment 1
+
+Please fill in the information below and submit this file to Blackboard to turn in your assignment.
+
+Your Name:
+Link to your Github Repository: 
+```
+#### Upload the file to Blackboard
+Click on the [Assignment Link](https://fordham.blackboard.com/webapps/assignment/uploadAssignment?content_id=_3599498_1&course_id=_6112339_1)
+
+#### Click "Browse Local Files"
+<img src=https://drive.google.com/file/d/1hwxzToBof7vF9kXYFXWGOsbdjF73IIG0/view>
+
+Select and upload your `submit.txt` file, and click `Submit` (at the bottom of the screen)
+
+_Note: You could also click `Write Submission` and simply enter the contents of `submit.txt` in the text box before clicking `Submit`_
+
 
 
 
