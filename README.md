@@ -25,7 +25,12 @@ Log in to the Linux system you will use for development - this could be `erdos` 
 
 Use the following command to clone your repository to your local environment:
 
-`git clone http://github.com/skamens-fordham-org/os-hw1-<your_github_username>`
+```
+git clone http://github.com/skamens-fordham-org/os-hw1-<your_github_username>
+```
+
+*Note:* In addition to creating your repository, accepting the assignment will also create a "Feedback" pull request. Please _do not_ close or delete this pull request. It will be used for me to communicate comments about your assignment to you. 
+
 ### (VSCode Users Only) Add the folder to VSCode
 If you are using VSCode to perform your development, run VSCode, enable Remote-WSL access, and choose "File -> Open Folder", selecting your cloned assignment folder.
 
