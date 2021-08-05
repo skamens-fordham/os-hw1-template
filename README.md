@@ -59,6 +59,7 @@ Run your program to verify that it prints "Hello, World!" as expected:
 ```
 $ ./hello_world
 Hello, World!
+$
 ```
 #### VSCode
 Run the program by entering "Ctrl-F5" (which maps to "Run -> Run Without Debugging"). Note that the configuration needed to run the program is found in the `.vscode/launch.json` file included in this repository.
