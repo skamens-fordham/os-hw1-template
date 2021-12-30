@@ -10,7 +10,7 @@ This assignment will be graded out of 25 points.
 ### Configure your development environment
 Follow the guidelines in the [Programming Assignment Setup](https://docs.google.com/document/d/1lHtKhu-f2EiWcJhHt3aGLr5e0bN1lyeKXfYha4J3WK8/edit?usp=sharing) document to configure your development environment.
 ### Accept the assignment
-Click on the [Github Classroom Assignment Link](https://classroom.github.com/a/-sc3H9N6) to accept the first assignment. This will create a git repository containing the following files:
+Click on the [Github Classroom Assignment Link](https://classroom.github.com/a/-fBYfeKs) to accept the first assignment. This will create a git repository containing the following files:
 * `README.md` - this README file
 * `Makefile` - the Makefile that will be used to build the program
 * `hello_world.cpp` - a starter file to use to implement your code
