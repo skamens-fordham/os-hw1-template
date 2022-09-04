@@ -111,7 +111,7 @@ Email Address:
 Link to your Github Repository: 
 ```
 #### Upload the file to Blackboard
-Click on the [Assignment Link](https://fordham.blackboard.com/webapps/assignment/uploadAssignment?content_id=_3599498_1&course_id=_6112339_1)
+Click on the [Assignment Link](https://fordham.blackboard.com/ultra/courses/_6166419_1/outline/assessment/test/_4614950_1?courseId=_6166419_1&gradeitemView=details)
 
 #### Click "Browse Local Files"
 
