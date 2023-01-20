@@ -19,17 +19,28 @@ Click on the [Github Classroom Assignment Link](https://classroom.github.com/a/v
   *  `tasks.json` - Defines the rule used to build the program using the Makefile
   *  `launch.json` - Configuration allowing you to run the program from VSCode
 
-Your github repository will be found at http://github.com/skamens-fordham-org/os-hw1-<your_github_username>.
+Your github repository will be found at https://github.com/skamens-fordham-org/os-hw1-_your_github_username_.
 ### Clone the github repository to your Linux environment
 Log in to the Linux system you will use for development - this could be `erdos` or the WSL installation of Linux on your Windows 10 machine.
 
 Use the following command to clone your repository to your local environment:
 
 ```
-git clone http://github.com/skamens-fordham-org/os-hw1-<your_github_username>
+git clone https://github.com/skamens-fordham-org/os-hw1-_your_github_username_
 ```
 
+When cloning your repository using the https: URL above, you may receive a message that says:
+
+```
+Support for password authentication was removed on August 13, 2021. 
+Please use a personal access token instead.
+```
+
+If you receive this message, you'll need to use a Personal Access Token to authenticate with Github instead of your password. Follow [these instructions](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic) to create your token, and then [log in using the token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line) instead of your github password. 
+
+
 *Note:* In addition to creating your repository, accepting the assignment will also create a "Feedback" pull request. Please _do not_ close or delete this pull request. It will be used for me to communicate comments about your assignment to you. 
+
 
 ### (VSCode Users Only) Add the folder to VSCode
 If you are using VSCode to perform your development, run VSCode, enable Remote-WSL access, and choose "File -> Open Folder", selecting your cloned assignment folder.
